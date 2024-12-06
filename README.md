@@ -7,12 +7,13 @@ namespace MyLabProgram
     {
         static void Main(string[] args)
         {
-            // Original variable and function call
-            int x = AddNumbers(5, 10);
-            Console.WriteLine("The result is: " + x);
+            // Updated variable name for clarity
+            int result = AddNumbers(5, 10);
+            Console.WriteLine("The result is: " + result);
         }
 
         // Function to add two numbers
+        //This function takes two integers as input and returns their sum.
         static int AddNumbers(int num1, int num2)
         {
             return num1 + num2;
