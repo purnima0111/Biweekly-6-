@@ -13,6 +13,7 @@ namespace MyLabProgram
         }
 
         // Function to add two numbers
+        //Function takes two integers as input and returns their sum.
        
         static int AddNumbers(int num1, int num2)
         {
